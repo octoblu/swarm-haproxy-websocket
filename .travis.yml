@@ -1,7 +1,7 @@
 sudo: false
 language: shell
 script:
-  - exit 0
+  - echo "No tests"
 notifications:
   webhooks:
     - 'https://beekeeper.octoblu.com/webhooks/travis:ci'
